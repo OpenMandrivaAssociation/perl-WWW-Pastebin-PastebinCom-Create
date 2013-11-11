@@ -1,15 +1,15 @@
 %define upstream_name    WWW-Pastebin-PastebinCom-Create
-%define upstream_version 0.003
+%define upstream_version 0.004
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:	2
+Release:	1
 
 Summary:	Paste to http://pastebin.com from Perl
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		http://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/WWW/%{upstream_name}-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/WWW/WWW-Pastebin-PastebinCom-Create-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
 BuildRequires:	perl(Carp)
@@ -64,4 +64,5 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Fri Jan 09 2009 cpan2dist 0.001-1mdv
 - initial mdv release, generated with cpan2dist
+
 
