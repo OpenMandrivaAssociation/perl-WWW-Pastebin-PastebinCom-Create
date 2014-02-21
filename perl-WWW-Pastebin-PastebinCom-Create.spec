@@ -1,5 +1,5 @@
 %define upstream_name    WWW-Pastebin-PastebinCom-Create
-%define upstream_version 0.004
+%define upstream_version 1.003
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
@@ -64,5 +64,6 @@ perl Makefile.PL INSTALLDIRS=vendor
 
 * Fri Jan 09 2009 cpan2dist 0.001-1mdv
 - initial mdv release, generated with cpan2dist
+
 
 
