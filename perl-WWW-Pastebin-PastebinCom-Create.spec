@@ -12,6 +12,8 @@ Url:		http://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/WWW/WWW-Pastebin-PastebinCom-Create-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
+BuildRequires: perl(WWW::Mechanize)
+BuildRequires: perl(Moo)
 BuildRequires:	perl(Carp)
 BuildRequires:	perl(LWP::UserAgent)
 BuildRequires:	perl(Module::Build::Compat)
