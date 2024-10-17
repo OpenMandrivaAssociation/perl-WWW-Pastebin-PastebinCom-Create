@@ -8,7 +8,7 @@ Release:	3
 Summary:	Paste to http://pastebin.com from Perl
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		http://search.cpan.org/dist/%{upstream_name}
+Url:		https://search.cpan.org/dist/%{upstream_name}
 Source0:	http://www.cpan.org/modules/by-module/WWW/WWW-Pastebin-PastebinCom-Create-%{upstream_version}.tar.gz
 
 BuildRequires:	perl-devel
