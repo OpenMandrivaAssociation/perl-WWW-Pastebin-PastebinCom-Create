@@ -2,13 +2,13 @@
 %define upstream_version 1.003
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:	3
+Version:	%{upstream_version}
+Release:	4
 
 Summary:	Paste to http://pastebin.com from Perl
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
+Url:		https://metacpan.org/dist/WWW-Pastebin-PastebinCom-Create
 Source0:	http://www.cpan.org/modules/by-module/WWW/WWW-Pastebin-PastebinCom-Create-%{upstream_version}.tar.gz
 
 BuildRequires:	make
