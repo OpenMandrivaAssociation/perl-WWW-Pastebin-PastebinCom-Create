@@ -1,15 +1,13 @@
 %define upstream_name    WWW-Pastebin-PastebinCom-Create
-%define upstream_version 1.003
-
 Name:		perl-%{upstream_name}
-Version:	%{upstream_version}
-Release:	4
+Version:	1.003
+Release:	5
 
 Summary:	Paste to http://pastebin.com from Perl
 License:	GPL+ or Artistic
 Group:		Development/Perl
 Url:		https://metacpan.org/dist/WWW-Pastebin-PastebinCom-Create
-Source0:	http://www.cpan.org/modules/by-module/WWW/WWW-Pastebin-PastebinCom-Create-%{upstream_version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/WWW/WWW-Pastebin-PastebinCom-Create-%{version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
@@ -30,7 +28,7 @@ The module provides means of pasting large texts into the
 http://pastebin.com manpage pastebin site.
 
 %prep
-%setup -q -n %{upstream_name}-%{upstream_version}
+%setup -q -n %{upstream_name}-%{version}
 
 %build
 perl Makefile.PL INSTALLDIRS=vendor
